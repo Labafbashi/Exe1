@@ -8,7 +8,7 @@
 
 
         Console.WriteLine("=====>> Restaurangregistrering <<=====");
-        Console.WriteLine("\n\n");
+        Console.WriteLine("\n to finish the game enter end. \n\n\n");
         do
         {
             i++;
@@ -19,9 +19,12 @@
             salary.Add(Convert.ToInt32(Console.ReadLine()));
         } while (staffName[i].ToUpper() != "END");
 
-        for(i = 0; i < salary.Count; i++)
+        Console.WriteLine("\n\n");
+        Console.WriteLine("Staff Name \t \t \t Salary");
+        Console.WriteLine("========== \t \t \t ======");
+        for (i = 0; i < salary.Count; i++)
         {
-            Console.WriteLine($"Staff Name : {staffName[i]} === \t === Salary : {salary[i]}");
+            Console.WriteLine($"{staffName[i]} \t \t \t {salary[i]}");
 
         }
     }
