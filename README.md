@@ -24,6 +24,3 @@ Vilka attribut och metoder bör ingå i dessa klasser?
 Uppgift 3
 Skriv programmet
 Försök göra programmet så robust och framtidssäkert som möjligt!
-Bonus för att implementera test! (men inte på bekostnad av att den andra koden blir lidande)
-Ni har fram till 16.45 på er, koden ska ligga uppe absolut senast 17.00.
-Lycka till!
