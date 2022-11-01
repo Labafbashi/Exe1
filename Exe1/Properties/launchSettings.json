@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exe1": {
+      "commandName": "Project",
+      "commandLineArgs": "Test input arguments"
+    }
+  }
+}
